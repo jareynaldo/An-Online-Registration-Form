@@ -195,6 +195,7 @@ footer{
     font-weight: lighter;
     padding-bottom: 2rem;
 }
+
   
   @media screen and (min-width: 1024px) {
       form {
@@ -233,5 +234,6 @@ footer{
 
       textarea{ 
           height: 6rem;
+          
       }
   }
