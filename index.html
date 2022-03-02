@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Online Registration Form" content="A basic non-serverside form">
+    <title>Online Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body> 
+    <header class="header">    
+        <p>THE CODE REVIEW</p>
+    </header>
+    <div>
+        <h1>Signup for our newsletter</h1>
+        <P>Get the latest news on how your code is doing right in your mailbox.</P>
+    </div>
+    <form>
+        <fieldset class="contact-info"> 
+                    <legend>Contact Information</legend>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="user-name" placeholder="Required">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="user-email" placeholder="Required">
+
+                    <label for="Phone">Phone Number</label>
+                    <input type="tel" id="phone" name="user-phone" placeholder="(500)-000-9999">
+
+                    <label for="address1">Street Address</label>
+                    <input type="text" id="address1" name="user-address1"  placeholder="123 Street Ave">
+
+                    <label for="address2">Apartment/Office Number</label>
+                    <input type="text" id="address2" name="user-address2" placeholder="Apartment 1" >
+
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="user-city"  placeholder="Cityville">
+
+                    <label for="state">State</label>
+                    <select id="state" name="user-state" placeholder="Chose state">
+                        <option value="" id="choose" disabled selected hidden>Choose a State</option>
+                         <option value="kentucky" > Kentucky</option>
+                         <option value="stateville">Stateville</option>
+                         <option value="florida"   >Florida</option>
+                         <option value="washington">Washington</option>
+                    </select>
+
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" name="user-zip"  placeholder="54312">
+                </fieldset>
+        <fieldset class="Newsletter"> 
+                <legend>Newsletter</legend>
+  
+                <label>Select the newsletters you would like to recive</label><br>
+                <input type="checkbox" id="html-news" value="html-news" 
+                name="user_pref"> <label class="light" for="html-news" id="html-choice" >HTML News</label>
+                <br>
+                <input type="checkbox" id="CSS-news" value="CSS-news" 
+                name="user_pref"><label for="CSS-news" id="CSS-choice" >CSS News</label>
+                <br>
+                <input type="checkbox" id="javascript-news" value="javascript-news" 
+                name="user_pref"> <label class="light" for="javascript-news" id="java-choice" >Javascript News</label>
+                <br>
+                
+                <label id="format">Newsletter format</label><br>
+                <input type="radio" id="html" value="html" name="user_format">
+                <label class="light" for="html" id="html-form-choice" >HTML</label>
+                <br>
+                <input type="radio" id="plaintext" value="plaintext" name="user_format">
+                <label class="light" for="plaintext" id="plaintext-choice" >Plaintext</label>
+                <br>
+                
+                <label for="other-tops">Other topics you'd like to hear about</label>
+                <textarea id="other-tops" name="others" placeholder="Any info you'd like"> </textarea>
+        </fieldset>
+
+                <button type="submit"> Sign up</button>
+    </form> 
+    <footer>
+        <p> &copy; Copyriht The Code Review</p>
+    </footer>
+ </body>
+</html>
