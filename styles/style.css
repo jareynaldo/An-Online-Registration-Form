@@ -116,6 +116,7 @@ input, select {
 }
 input:focus, select:focus, textarea:focus{   
     border : 4px solid rgb(21, 153, 43); 
+    box-sizing: border-box
 }
 #zip{
     width: 50%;
@@ -223,11 +224,12 @@ footer{
           margin-left: 2rem;
           align-content: flex-end;
       }
+      
        .contact-info > label{ 
         padding-bottom: 1rem;
       }
       #zip {
-           width:25%;
+           width:17.4%;
       }
 
       textarea{ 
