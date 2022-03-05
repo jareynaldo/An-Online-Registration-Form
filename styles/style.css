@@ -166,6 +166,13 @@ input::placeholder, #choose{
     margin-top: 2px;
     margin-bottom: 2rem;
 }
+.flex{ 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
 label[for^="other-tops"]{ 
     margin-top: 2rem;
     padding-bottom: .7rem;
