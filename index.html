@@ -22,10 +22,10 @@
         <fieldset class="contact-info"> 
                     <legend>Contact Information</legend>
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="user-name" placeholder="Required">
+                    <input type="text" id="name" name="user-name" placeholder="Required" required>
 
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="user-email" placeholder="Required">
+                    <input type="email" id="email" name="user-email" placeholder="Required" required>
 
                     <label for="phone">Phone Number</label>
                     <input type="tel" id="phone" name="user-phone" placeholder="(500)-000-9999">
@@ -50,19 +50,19 @@
 
                     <label for="zip">Zip Code</label>
                     <input type="text" id="zip" name="user-zip"  placeholder="54312">
-                </fieldset>
-        <fieldset class="Newsletter"> 
+        </fieldset>
+        <fieldset class="newsletter"> 
                 <legend>Newsletter</legend>
   
                 <label>Select the newsletters you would like to recive</label><br>
-                <input type="checkbox" id="html-news" value="html-news" 
-                name="user_pref"> <label class="light" for="html-news" id="html-choice" >HTML News</label>
+                <input type="checkbox" id="html-news"  name="html-choice" value="html-news" 
+                > <label class="light" for="html-news" id="html-choice" >HTML News</label>
                 <br>
-                <input type="checkbox" id="CSS-news" value="CSS-news" 
-                name="user_pref"><label for="CSS-news" id="CSS-choice" >CSS News</label>
+                <input type="checkbox" id="CSS-news"  name="CSS-choice" value="CSS-news" 
+                ><label for="CSS-news" id="CSS-choice" >CSS News</label>
                 <br>
-                <input type="checkbox" id="javascript-news" value="javascript-news" 
-                name="user_pref"> <label class="light" for="javascript-news" id="java-choice" >Javascript News</label>
+                <input type="checkbox" id="javascript-news" name="java-choice" value="javascript-news" 
+                > <label class="light" for="javascript-news" id="java-choice" >Javascript News</label>
                 <br>
                 
                 <label id="format">Newsletter format</label><br>
@@ -75,10 +75,11 @@
             <div class="flex">
                 <label for="other-tops">Other topics you'd like to hear about</label>
                 <textarea id="other-tops" name="others"  placeholder="Any info you'd like"></textarea>
-        </fieldset>
+       
 
                 <button type="submit"> Sign up</button>
-                 </div>
+            </div>
+        </fieldset>
     </form> 
     <footer>
         <p> &copy; Copyriht The Code Review</p>
