@@ -91,6 +91,7 @@ form {
     padding: 10px 20px;
     background: #f4f7f8;
     border-radius: 8px;
+    width: 70vw;
   }
  
 
@@ -240,7 +241,7 @@ footer{
         padding-bottom: 1rem;
       }
       #zip {
-           width:25%;
+           width:17.75%;
       }
 
       textarea{ 
